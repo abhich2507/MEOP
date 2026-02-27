@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 FEB 2026 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 FEB 2026 10:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,52 +703,52 @@ Dictionary: translator-theorem-dictionary, Language: English
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<power_vs_P0.png, id=60, 641.7576pt x 444.7014pt>
-File: power_vs_P0.png Graphic file (type png)
-<use power_vs_P0.png>
-Package pdftex.def Info: power_vs_P0.png  used on input line 37.
-(pdftex.def)             Requested size: 325.00801pt x 225.21367pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+<power_vs_tau_b.png, id=60, 641.7576pt x 445.665pt>
+File: power_vs_tau_b.png Graphic file (type png)
+<use power_vs_tau_b.png>
+Package pdftex.def Info: power_vs_tau_b.png  used on input line 48.
+(pdftex.def)             Requested size: 325.00801pt x 225.70168pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 37.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-Overfull \vbox (23.58098pt too high) detected at line 37
+Overfull \vbox (24.06898pt too high) detected at line 48
  []
 
 
 
 [2
 
- <./power_vs_P0.png>]
-<power_vs_tau_b.png, id=95, 641.7576pt x 445.665pt>
-File: power_vs_tau_b.png Graphic file (type png)
-<use power_vs_tau_b.png>
-Package pdftex.def Info: power_vs_tau_b.png  used on input line 48.
+ <./power_vs_tau_b.png>]
+<power_vs_Pmax.png, id=96, 641.7576pt x 445.665pt>
+File: power_vs_Pmax.png Graphic file (type png)
+<use power_vs_Pmax.png>
+Package pdftex.def Info: power_vs_Pmax.png  used on input line 59.
 (pdftex.def)             Requested size: 325.00801pt x 225.70168pt.
 
-Overfull \vbox (24.06898pt too high) detected at line 48
+Overfull \vbox (24.06898pt too high) detected at line 59
  []
 
 
 
 [3
 
- <./power_vs_tau_b.png>]
-<power_vs_tau_decay.png, id=126, 641.2758pt x 445.1832pt>
+ <./power_vs_Pmax.png>]
+<power_vs_tau_decay.png, id=127, 641.2758pt x 445.1832pt>
 File: power_vs_tau_decay.png Graphic file (type png)
 <use power_vs_tau_decay.png>
-Package pdftex.def Info: power_vs_tau_decay.png  used on input line 60.
+Package pdftex.def Info: power_vs_tau_decay.png  used on input line 71.
 (pdftex.def)             Requested size: 325.00801pt x 225.62749pt.
 
-Overfull \vbox (27.27815pt too high) detected at line 60
+Overfull \vbox (27.27815pt too high) detected at line 71
  []
 
 
@@ -756,20 +756,16 @@ Overfull \vbox (27.27815pt too high) detected at line 60
 [4
 
  <./power_vs_tau_decay.png>]
-<C8_vs_C9_comparison.png, id=160, 1002.6258pt x 470.2368pt>
+<C8_vs_C9_comparison.png, id=159, 1002.6258pt x 470.2368pt>
 File: C8_vs_C9_comparison.png Graphic file (type png)
 <use C8_vs_C9_comparison.png>
-Package pdftex.def Info: C8_vs_C9_comparison.png  used on input line 73.
+Package pdftex.def Info: C8_vs_C9_comparison.png  used on input line 84.
 (pdftex.def)             Requested size: 325.00801pt x 152.4305pt.
 
 
 [5
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./C8_vs_C9_comparison.png>]
-
-[6
-
-]
 \tf@nav=\write6
 \openout6 = `beamer_slides.nav'.
 
@@ -788,18 +784,18 @@ Package rerunfilecheck Info: File `beamer_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21818 strings out of 473190
- 424398 string characters out of 5715801
- 790821 words of memory out of 5000000
- 44595 multiletter control sequences out of 15000+600000
- 574817 words of font info for 93 fonts, out of 8000000 for 9000
+ 21736 strings out of 473190
+ 422563 string characters out of 5715801
+ 789821 words of memory out of 5000000
+ 44520 multiletter control sequences out of 15000+600000
+ 570937 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,438b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
-Output written on beamer_slides.pdf (6 pages, 529595 bytes).
+ 128i,15n,123p,438b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
+Output written on beamer_slides.pdf (5 pages, 490922 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 13 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 11 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
