@@ -5,6 +5,13 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 
+% Push footnote text above the Madrid footer bar
+\addtobeamertemplate{footnote}{}{\vspace{2ex}}
+\newcommand{\plotnote}[1]{%
+  \vfill
+  {\usebeamercolor[fg]{structure}\scriptsize #1}%
+}
+
 % Custom colors
 \definecolor{meopblue}{RGB}{52, 152, 219}
 \definecolor{meopred}{RGB}{231, 76, 60}
@@ -15,7 +22,7 @@
 
 \title{Power Dependence of MEOP Fit Parameters}
 \subtitle{Cells C8 \& C9 --- 3\,W to 8\,W}
-\author{MEOP Analysis}
+\author{Abhishek}
 \date{\today}
 
 \begin{document}
@@ -39,35 +46,26 @@
 % ---- Slide 1: tau_b vs Power ----
 \begin{frame}{Buildup Time Constant $\tau_b$ vs Laser Power}
   \begin{center}
-    \includegraphics[width=0.75\textwidth]{power_vs_tau_b.png}
+    \includegraphics[width=0.70\textwidth]{power_vs_tau_b.png}
   \end{center}
-  \vspace{-4mm}
-  \footnotesize
-  Error bars: $\sigma_{\mathrm{total}} = \sqrt{\sigma_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$
-  \hfill Faded points = individual datagrabs
+  \plotnote{Error bars: $\sigma_{\mathrm{total}} = \sqrt{\sigma_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$ \hfill Faded points = individual datagrabs}
 \end{frame}
 
 %---- Slide 2: P_max vs Power ----
 \begin{frame}{Maximum Polarization $P_{\rm max}$ vs Laser Power}
   \begin{center}
-    \includegraphics[width=0.75\textwidth]{power_vs_Pmax.png}
+    \includegraphics[width=0.70\textwidth]{power_vs_Pmax.png}
   \end{center}
-  \vspace{-4mm}
-  \footnotesize
-  Error bars: $\sigma_{\mathrm{total}} = \sqrt{\sigma_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$
-  \hfill Faded points = individual datagrabs
+  \plotnote{Error bars: $\sigma_{\mathrm{total}} = \sqrt{\sigma_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$ \hfill Faded points = individual datagrabs}
 \end{frame}
 
 % ---- Slide 3: tau_decay vs Power ----
 \begin{frame}{Decay Time Constant $\tau_{\mathrm{decay}}$ vs Laser Power}
   \begin{center}
-    \includegraphics[width=0.75\textwidth]{power_vs_tau_decay.png}
+    \includegraphics[width=0.70\textwidth]{power_vs_tau_decay.png}
   \end{center}
-  \vspace{-4mm}
-  \footnotesize
-  Error bars: $\sigma_{\mathrm{total}} = \sqrt{\bar{\sigma}_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$,\;
-  $\bar{\sigma}_{\mathrm{fit}} = \sqrt{\sum\sigma_{\mathrm{fit},i}^2}/N$
-  \hfill Faded points = individual datagrabs
+  \plotnote{Error bars: $\sigma_{\mathrm{total}} = \sqrt{\bar{\sigma}_{\mathrm{fit}}^2 + \sigma_{\mathrm{rms}}^2}$,\;
+  $\bar{\sigma}_{\mathrm{fit}} = \sqrt{\sum\sigma_{\mathrm{fit},i}^2}/N$ \hfill Faded points = individual datagrabs}
 \end{frame}
 
 % ---- Slide 4: C8 vs C9 Comparison ----
