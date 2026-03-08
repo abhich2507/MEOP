@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772825824.62478 "/Users/snip/Documents/MEOP/power_dependence_plots/beamer_slides.tex" "beamer_slides.pdf" "beamer_slides" 1772825825.9663 0
-  "/Users/snip/Documents/MEOP/power_dependence_plots/beamer_slides.tex" 1772825824.44667 3960 3763c2a93f95f959c202eb511fdc9e3d ""
+["pdflatex"] 1772987610.4199 "/Users/snip/Documents/MEOP/power_dependence_plots/beamer_slides.tex" "beamer_slides.pdf" "beamer_slides" 1772987611.72523 0
+  "/Users/snip/Documents/MEOP/power_dependence_plots/beamer_slides.tex" 1772845960.41283 3960 3763c2a93f95f959c202eb511fdc9e3d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -205,13 +205,13 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765771184 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "beamer_slides.aux" 1772825825.89287 967 1150d5a706f5c5a0e25d001512012309 "pdflatex"
-  "beamer_slides.nav" 1772825825.89409 571 686a2d273024229235dc0db1f461ba6c "pdflatex"
-  "beamer_slides.out" 1772825825.27828 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "beamer_slides.tex" 1772825824.44667 3960 3763c2a93f95f959c202eb511fdc9e3d ""
-  "power_vs_Pmax.png" 1772210835.4582 77310 9841bd7090e1e18bfd8476ffb9f9cc70 ""
-  "power_vs_tau_b.png" 1772202449.96122 86168 33a8f6f32e22e631e2a043c293e8134c ""
-  "power_vs_tau_decay.png" 1772203550.79573 109270 f1358007d69379d67e407c8adb45bee1 ""
+  "beamer_slides.aux" 1772987611.65765 967 1150d5a706f5c5a0e25d001512012309 "pdflatex"
+  "beamer_slides.nav" 1772987611.65874 571 686a2d273024229235dc0db1f461ba6c "pdflatex"
+  "beamer_slides.out" 1772987611.05939 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "beamer_slides.tex" 1772845960.41283 3960 3763c2a93f95f959c202eb511fdc9e3d ""
+  "power_vs_Pmax.png" 1772987608.63591 78228 f2d993e0ded44f923a57fa0fb5ab6a2e ""
+  "power_vs_tau_b.png" 1772987608.89748 86900 4f14d9030b43615b5569bcf764ebd032 ""
+  "power_vs_tau_decay.png" 1772987609.20419 107779 e6141c559159674f6e4fef36bf91112c ""
   (generated)
   "beamer_slides.aux"
   "beamer_slides.log"
