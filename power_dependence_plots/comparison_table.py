@@ -84,10 +84,10 @@ def pair_cell(param, cell, pw):
 
     if vA is not None:
         bgA, fgA = bg_fg(param, vA)
-        tipA = (f"[Ref] mean={vA:.4f}  σsys={float(rA[f'{param}_ssys']):.4f}"
+        tipA = (f"[LIND] mean={vA:.4f}  σsys={float(rA[f'{param}_ssys']):.4f}"
                 f"  σfit={float(rA[f'{param}_sfit']):.5f}  σtot={eA:.4f}")
         cA = (f'<div class="subcell" style="background:{bgA};color:{fgA}" title="{tipA}">'
-              f'<span class="src">Ref</span>'
+              f'<span class="src">LIND</span>'
               f'<span class="mean">{vA:.3f}</span>'
               f'<span class="err">±{eA:.3f}</span></div>')
     else:
@@ -95,10 +95,10 @@ def pair_cell(param, cell, pw):
 
     if vB is not None:
         bgB, fgB = bg_fg(param, vB)
-        tipB = (f"[New] mean={vB:.4f}  σ̄fit={float(rB[Bsfit]):.4f}"
+        tipB = (f"[ABHI] mean={vB:.4f}  σ̄fit={float(rB[Bsfit]):.4f}"
                 f"  σrms={float(rB[Bsrms]):.4f}  σtot={eB:.4f}")
         cB = (f'<div class="subcell" style="background:{bgB};color:{fgB}" title="{tipB}">'
-              f'<span class="src">New</span>'
+              f'<span class="src">ABHI</span>'
               f'<span class="mean">{vB:.3f}</span>'
               f'<span class="err">±{eB:.3f}</span></div>')
     else:
@@ -170,11 +170,11 @@ td, th { border:1px solid #1e1e3a; text-align:center; vertical-align:middle; pad
 </style>
 </head>
 <body>
-<h1>MEOP Fit Parameters — Reference vs New Analysis</h1>
+<h1>MEOP Fit Parameters — LIND vs ABHI</h1>
 <p class="subtitle">
-  <span class="pill" style="background:#1a2a1a;color:#2ecc71">Ref</span> table.tsv &nbsp;·&nbsp;
-  <span class="pill" style="background:#1a1a2e;color:#74b9ff">New</span> C8_C9_summary.csv &nbsp;·&nbsp;
-  Δ = New − Ref &nbsp;·&nbsp; <b>Hover</b> any value for full error breakdown
+  <span class="pill" style="background:#1a2a1a;color:#2ecc71">LIND</span> table.tsv &nbsp;·&nbsp;
+  <span class="pill" style="background:#1a1a2e;color:#74b9ff">ABHI</span> C8_C9_summary.csv &nbsp;·&nbsp;
+  Δ = ABHI − LIND &nbsp;·&nbsp; <b>Hover</b> any value for full error breakdown
 </p>
 <div class="wrapper">
 <table>
@@ -187,9 +187,9 @@ td, th { border:1px solid #1e1e3a; text-align:center; vertical-align:middle; pad
       <th rowspan="2" style="color:#555">n</th>
     </tr>
     <tr>
-      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(New−Ref)</th>
-      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(New−Ref)</th>
-      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(New−Ref)</th>
+      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(ABHI−LIND)</th>
+      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(ABHI−LIND)</th>
+      <th>mean ± σ<sub>tot</sub> &nbsp;|&nbsp; Δ(ABHI−LIND)</th>
     </tr>
   </thead>
   <tbody>
@@ -198,9 +198,9 @@ td, th { border:1px solid #1e1e3a; text-align:center; vertical-align:middle; pad
 </table>
 </div>
 <div class="legend">
-  <b>Ref</b> σ<sub>tot</sub> = √(σ<sub>sys</sub>² + σ<sub>fit</sub>²) &nbsp;·&nbsp;
-  <b>New</b> σ<sub>tot</sub> = √(σ̄<sub>fit</sub>² + σ<sub>rms</sub>²) &nbsp;·&nbsp;
-  Colour intensity encodes the mean value on a shared scale per parameter column
+  <b>LIND</b> σ<sub>tot</sub> = √(σ<sub>sys</sub>² + σ<sub>fit</sub>²) &nbsp;·&nbsp;
+  <b>ABHI</b> σ<sub>tot</sub> = √(σ̄<sub>fit</sub>² + σ<sub>rms</sub>²) &nbsp;·&nbsp;
+  # Colour intensity encodes the mean value on a shared scale per parameter column
 </div>
 </body>
 </html>
