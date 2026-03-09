@@ -174,7 +174,7 @@ td, th { border:1px solid #1e1e3a; text-align:center; vertical-align:middle; pad
 <p class="subtitle">
   <span class="pill" style="background:#1a2a1a;color:#2ecc71">LIND</span> table.tsv &nbsp;·&nbsp;
   <span class="pill" style="background:#1a1a2e;color:#74b9ff">ABHI</span> C8_C9_summary.csv &nbsp;·&nbsp;
-  Δ = ABHI − LIND &nbsp;·&nbsp; <b>Hover</b> any value for full error breakdown
+  Δ = ABHI − LIND
 </p>
 <div class="wrapper">
 <table>
@@ -200,7 +200,7 @@ td, th { border:1px solid #1e1e3a; text-align:center; vertical-align:middle; pad
 <div class="legend">
   <b>LIND</b> σ<sub>tot</sub> = √(σ<sub>sys</sub>² + σ<sub>fit</sub>²) &nbsp;·&nbsp;
   <b>ABHI</b> σ<sub>tot</sub> = √(σ̄<sub>fit</sub>² + σ<sub>rms</sub>²) &nbsp;·&nbsp;
-  # Colour intensity encodes the mean value on a shared scale per parameter column
+  Colour intensity encodes the mean value on a shared scale per parameter column
 </div>
 </body>
 </html>
