@@ -31,7 +31,6 @@ void replot_8W_C9() {
 
     // ---- 2. New canvas ----------------------------------------
     TCanvas *c = new TCanvas("c_clean", "8W C9 datagrab1 – Clean", 1300, 800);
-    c->SetGrid();
     c->SetLeftMargin(0.10);
     c->SetRightMargin(0.03);
     c->SetTopMargin(0.17);   // extra room at top for the header text
@@ -90,17 +89,17 @@ void replot_8W_C9() {
     // leg->Draw();
 
     // ---- 6. Header text (NDC coordinates, top of pad) ---------
-    // Three lines stacked vertically, all centred at x0
-    double x0    = 0.50;   // horizontal centre of canvas
-    double y_top = 0.975;  // first line
-    double dy    = 0.052;  // line spacing
-    double sz    = 0.042;  // text size (slightly bigger to be readable)
+    // Three lines left-aligned, all starting from the same x0
+    double x0    = 0.58;   // left edge of text block (right region of plot)
+    double y_top = 0.68;   // top line y position
+    double dy    = 0.062;  // line spacing
+    double sz    = 0.048;  // text size
 
     auto makeLabel = [&](double x, double y, const char *txt) {
         TLatex *l = new TLatex(x, y, txt);
         l->SetNDC();
         l->SetTextSize(sz);
-        l->SetTextAlign(22);  // centre-centre
+        l->SetTextAlign(12);  // left-centre — all lines start at same x
         l->SetTextFont(42);
         l->Draw();
         return l;
@@ -108,7 +107,7 @@ void replot_8W_C9() {
 
     // Line 1: P_max
     TString sP = TString::Format(
-        "P_{max} = %.2f #pm %.2f %%", P_max, P_max_err);
+        "P_{max} = %.2f #pm %.2f", P_max, P_max_err);
     makeLabel(x0, y_top, sP);
 
     // Line 2: T_pump (tau_b)
